@@ -6,7 +6,7 @@ Question: What are the most in-demand skills for data engineers?
 - Why? Retrieves the top 10 skills with the highest demand in the remote job market,
     providing insights into the most valuable skills for data engineers seeking remote work
 */
-
+--Adding some comment to pull fetch this change from Local CMD
 SELECT 
     sd.skills,
     COUNT(jpf.*) AS demand_count
